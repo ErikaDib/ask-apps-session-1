@@ -1,0 +1,65 @@
+/*Exercise 2 - CSS*/
+body{
+  background: #9796f0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+#root {
+  display: inline;
+  /* align-self: center; */
+  background-color: whitesmoke;
+  width: 80%;
+  margin: auto;
+}
+#mainHeader{
+  text-align: center;
+  text-shadow: 2px 2px fuchsia;
+}
+#video{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+#video iframe{
+  width: 100%;
+  height: 400px;
+  margin: 10px auto;
+  display: block;
+}
+#list{
+  height: 100vh;
+  overflow:scroll;
+  display: block;
+  float: right;
+  width: 50%;
+}
+button{
+  float: right;
+  margin: 15px;
+}
+.list-item {
+  background-color:#B2A8A8;
+  border-style: solid;
+  border-color: black; 
+  border-width: 1px;
+  margin: 10px auto;
+  height: 170px;
+  overflow: scroll;
+  width: 70%;
+  display: block;
+  border-radius: 25px;
+}
+.list-item:hover{
+  background-color: pink;
+}
+.list-item img{
+  padding: 10px;
+  float: left;
+}
+.list-item iframe{
+  display: none;
+}
+
+
+
